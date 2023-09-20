@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 60px;
+    padding: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    padding: 40px 0;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(rgb(211, 215, 211), rgb(234, 240, 245));
+    box-shadow: 0 0 20px grey;
+}
+
+img {
+    filter: hue-rotate(70deg);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#letsPlay {
+    color: green;
+    font-weight: bold;
+}
+
+#toplay {
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+#player-1,
+#player-2,
+#player1Score,
+#player2Score {
+    font-weight: bold;
+}
+
+#player1Score,
+#player2Score {
+    margin: 20px 0;
+}
+
+button#reset {
+    color: black;
+    border: none;
+    font-size: 14px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: rgb(251, 100, 125);
+    margin-top: 30px;
+    /* Adjust the font size as needed */
+}
+
+button#player1Button {
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background-color: rgb(26, 135, 26);
+}
+
+button#player2Button {
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    background-color: grey;
+}
