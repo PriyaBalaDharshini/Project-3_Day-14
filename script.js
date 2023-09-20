@@ -33,7 +33,7 @@ function rollnow1() {
     display.innerHTML = "Player-2";
 
     if (newScore1 >= 30) {
-        alert("Player 1 is the winner");
+        alert("Player 1 is the Winner...!!!");
         player2Button.disabled = true;
         reSet.disabled = false;
         reSet.style.backgroundColor = "red";
@@ -61,7 +61,7 @@ function rollnow2() {
     display.innerHTML = "Player-1";
 
     if (newScore2 >= 30) {
-        alert("Player 2 is the winner");
+        alert("Player 2 is the Winner...!!!");
         player1Button.disabled = true;
         reSet.disabled = false;
         reSet.style.backgroundColor = "red";
